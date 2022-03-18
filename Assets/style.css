@@ -23,3 +23,8 @@ body{
     color: #FFFFFF;
 }
 
+nav{
+    Text-align:right;
+    background-color:#707070;
+    color: #FFD6C;
+}
