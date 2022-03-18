@@ -1,13 +1,25 @@
 *{
-    background-color: #ceb92c;
+    
 }
 
-/* Electric Blue: #373e98
-Hot Pink: #f16775
-Shocking Yellow: #fee36e
-Chartreuse-ish: #ceb92c
-Darkest Gray: #2a2a2a */
+/* Blackish: #202020
+
+Dark Grey: #3F3F3F
+
+Medium Grey: #707070
+
+Egg Yellow: #FFD6C
+
+White: #FFFFFF*/
 
 body{
-    background-color:
+    background-color: #FFFFFF ;
+    font-family:'Courier New', Courier, monospace
 }
+
+.title{
+    text-align:center;
+    background-color:#202020;
+    color: #FFFFFF;
+}
+
