@@ -17,14 +17,22 @@ body{
     font-family:'Courier New', Courier, monospace
 }
 
+h1{
+    margin: 0px;
+    padding: 40px;
+    font-size: 55px;
+}
+
 .title{
     text-align:center;
     background-color:#202020;
     color: #FFFFFF;
+   
 }
 
 nav{
     Text-align:right;
     background-color:#707070;
     color: #FFD6C;
+    font-size: 20px;
 }
