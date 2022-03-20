@@ -1,5 +1,5 @@
 *{
-    
+    font-family:'Courier New', Courier, monospace  
 }
 
 /* Blackish: #202020
@@ -8,19 +8,16 @@ Dark Grey: #3F3F3F
 
 Medium Grey: #707070
 
-Egg Yellow: #FFD6C
+Eggshell:#ffcc5f
 
 White: #FFFFFF*/
 
-body{
-    background-color: #FFFFFF ;
-    font-family:'Courier New', Courier, monospace
-}
 
 h1{
     margin: 0px;
     padding: 40px;
     font-size: 55px;
+    text-align: center;
 }
 
 .title{
@@ -30,9 +27,52 @@ h1{
    
 }
 
-nav{
-    Text-align:right;
-    background-color:#707070;
-    color: #FFD6C;
-    font-size: 20px;
+/* working on changing the links back to formatting specified */
+.title a{
+    text-decoration: none;
+    Text-align: right;
+    color: #ffffff;
+    font-size: 139%;
+    border-radius: 5px;
+    padding: 0px 12px;
+    font-weight: bold;
+}
+
+.title a:hover{
+    background-color: #707070;
+    cursor:grab;
+}
+
+main {
+    background-color: #FFFFFF ;
+    margin: 0% 4%;
+}
+
+.project_content{
+    display:flex;
+}
+
+.first img {
+    
+    width: 189px;
+    height: 126px;
+}
+
+footer{
+    align-items: center;
+    text-align:center;
+}
+
+#contactme{
+    border: dashed 2px;
+    width: 200px;
+    margin: 5px auto;
+}
+
+#contactme form{
+    padding: 0px 0px 8px;
+}
+
+#contactme h2{
+    margin: 8px;
 }
