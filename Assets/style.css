@@ -50,13 +50,14 @@ main {
 
 .project_content{
     display:flex;
+    flex: row;
 }
 
 .first img {
-    
     width: 189px;
     height: 126px;
 }
+
 
 footer{
     align-items: center;
