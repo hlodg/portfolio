@@ -48,8 +48,26 @@ main {
     margin: 0% 4%;
 }
 
-#aboutme{
+.aboutme{
     background-color: lightgrey;
+}
+
+.aboutme h2{
+    text-align: center;
+    padding: 10px 0px 0px 0px ;
+}
+
+#contenta{
+    display:flex;
+}
+
+.aboutme img{
+    width:400px;
+    margin:20px;
+}
+
+.aboutme p{
+    margin:20px
 }
 
 .first{
