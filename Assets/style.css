@@ -53,11 +53,28 @@ main {
     flex: row;
 }
 
+.first p{
+    margin:2%;
+}
+
 .first img {
+    width: 189;
+    height: 126;
+}
+
+.project_content2{
+    display:flex;
+    flex: row-reverse;
+}
+
+.second img{
     width: 189px;
     height: 126px;
 }
 
+.second p{
+    margin: 2%;
+}
 
 footer{
     align-items: center;
