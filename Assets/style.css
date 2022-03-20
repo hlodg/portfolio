@@ -8,7 +8,7 @@ Dark Grey: #3F3F3F
 
 Medium Grey: #707070
 
-Eggshell:#ffcc5f
+yellow: lightgoldenrod
 
 White: #FFFFFF*/
 
@@ -48,6 +48,14 @@ main {
     margin: 0% 4%;
 }
 
+#aboutme{
+    background-color: lightgrey;
+}
+
+.first{
+    background-color: lightgoldenrodyellow;
+}
+
 .project_content{
     display:flex;
     flex: row;
@@ -58,8 +66,9 @@ main {
 }
 
 .first img {
-    width: 189;
-    height: 126;
+    width: 189px;
+    height: 126px;
+    margin: 0px 20px 20px 0px;
 }
 
 .project_content2{
@@ -70,6 +79,7 @@ main {
 .second img{
     width: 189px;
     height: 126px;
+    margin: 0px 0px 20px 20px;
 }
 
 .second p{
@@ -79,6 +89,7 @@ main {
 footer{
     align-items: center;
     text-align:center;
+    margin:5%;
 }
 
 #contactme{
