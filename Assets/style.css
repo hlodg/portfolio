@@ -1,7 +1,3 @@
-header {
-    font-family:'Courier New', Courier, monospace  
-}
-
 /* Blackish: #202020
 
 Dark Grey: #3F3F3F
@@ -11,6 +7,10 @@ Medium Grey: #707070
 yellow: lightgoldenrod
 
 White: #FFFFFF*/
+
+header {
+    font-family:'Courier New', Courier, monospace  
+}
 
 
 h1{
@@ -24,10 +24,8 @@ h1{
     text-align:center;
     background-color:#202020;
     color: #FFFFFF;
-   
 }
 
-/* working on changing the links back to formatting specified */
 .title a{
     text-decoration: none;
     Text-align: right;
@@ -129,7 +127,7 @@ footer{
 }
 
 
- /* Small Tablet, large smartphone */
+ /* Small Tablet, large smartphone, changes the  */
   @media screen and (max-width: 768px) {
     
     #content {
