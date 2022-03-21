@@ -59,6 +59,7 @@ main {
 
 #resume {
     text-align:center;
+    align-items: center;
 }
 
 #content{
@@ -75,22 +76,24 @@ main {
     margin:20px
 }
 
-.first{
+.left{
     background-color: lightgoldenrodyellow;
 }
 
-.first .project_content{
-    display:flex;
+.left .project_content{
     flex: row;
 }
 
-.second .project_content{
-    display:flex;
+.right .project_content{
     flex: row-reverse;
 }
 
 .project {
     padding: 12px;
+}
+
+.project .project_content {
+    display:flex;
 }
 
 .project h3{
@@ -107,6 +110,11 @@ main {
     margin: 5px;
 }
 
+.first img {
+    width: 400px;
+    height: auto;
+}
+
 footer{
     align-items: center;
     text-align:center;
@@ -117,12 +125,5 @@ footer{
     border: dashed 2px;
     width: 200px;
     margin: 5px auto;
-}
-
-#contactme form{
-    padding: 0px 0px 8px;
-}
-
-#contactme h2{
-    margin: 8px;
+    padding: 10px;
 }
