@@ -12,7 +12,7 @@ header {
     font-family:'Courier New', Courier, monospace  
 }
 
-
+/* Style for my name at the top */
 h1{
     margin: 0px;
     padding: 40px;
@@ -20,12 +20,14 @@ h1{
     text-align: center;
 }
 
+/* style's header */
 .title{
     text-align:center;
     background-color:#202020;
     color: #FFFFFF;
 }
 
+/* styles navigation bar without hover */
 .title a{
     text-decoration: none;
     Text-align: right;
@@ -36,30 +38,36 @@ h1{
     font-weight: bold;
 }
 
+/* styles navigation bar with header */
 .title a:hover{
     background-color: #707070;
     cursor:grab;
 }
 
+/* Overall main content */
 main {
     background-color: #FFFFFF ;
     margin: 0% 4%;
 }
 
+/* styles about me section */
 #aboutme{
     background-color: lightgrey;
 }
 
+/* styles the header in about me */
 #aboutme h2{
     text-align: center;
     padding: 10px 0px 0px 0px ;
 }
 
+/* styles resume section */
 #resume {
     text-align: center;
     align-items: center;
 }
 
+/* allows the picture and text in about me to be side by side */
 #content{
     display:flex;
 }
@@ -74,6 +82,7 @@ main {
     margin:20px
 }
 
+/* creates the bars in the portfolio that are with picture on left */
 .left{
     background-color: lightgoldenrodyellow;
 }
@@ -86,33 +95,40 @@ main {
     flex-direction: row-reverse;
 }
 
+/* creates formatting on portfolio padding */
 .project {
     padding: 12px;
 }
 
+/* allows for the boxes to be flexed */
 .project .project_content {
     display:flex;
 }
 
+/* portfolio heading */
 .project h3{
     margin: 5px 0;
 }
 
+/* text margin */
 .project p{
     margin:2%;
 }
 
+/* images with portfolio styling */
 .project img {
     width: 189px;
     height: auto;
     margin: 5px;
 }
 
+/* only styling first image */
 .first img {
     width: 400px;
     height: auto;
 }
 
+/* styles contact form at the bottom */
 footer{
     align-items: center;
     text-align:center;
@@ -127,7 +143,7 @@ footer{
 }
 
 
- /* Small Tablet, large smartphone, changes the  */
+ /* Small Tablet, large smartphone, changes the layout to be picture and text stacked */
   @media screen and (max-width: 768px) {
     
     #content {
@@ -144,7 +160,7 @@ footer{
 
   }
   
-  /* Small smartphones*/
+  /* Small smartphones stacks picture and text, changes image to smaller*/
   @media screen and (max-width: 578px) {
     
         #content {
