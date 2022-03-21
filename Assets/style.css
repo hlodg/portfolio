@@ -1,4 +1,4 @@
-*{
+header {
     font-family:'Courier New', Courier, monospace  
 }
 
@@ -48,25 +48,30 @@ main {
     margin: 0% 4%;
 }
 
-.aboutme{
+#aboutme{
     background-color: lightgrey;
 }
 
-.aboutme h2{
+#aboutme h2{
     text-align: center;
     padding: 10px 0px 0px 0px ;
 }
 
-#contenta{
+#resume {
+    text-align:center;
+}
+
+#content{
     display:flex;
 }
 
-.aboutme img{
-    width:400px;
+#aboutme img{
+    width:310px;
+    height: auto;
     margin:20px;
 }
 
-.aboutme p{
+#aboutme p{
     margin:20px
 }
 
@@ -74,34 +79,32 @@ main {
     background-color: lightgoldenrodyellow;
 }
 
-.project_content{
+.first .project_content{
     display:flex;
     flex: row;
 }
 
-.first p{
-    margin:2%;
-}
-
-.first img {
-    width: 189px;
-    height: 126px;
-    margin: 0px 20px 20px 0px;
-}
-
-.project_content2{
+.second .project_content{
     display:flex;
     flex: row-reverse;
 }
 
-.second img{
-    width: 189px;
-    height: 126px;
-    margin: 0px 0px 20px 20px;
+.project {
+    padding: 12px;
 }
 
-.second p{
-    margin: 2%;
+.project h3{
+    margin: 5px 0;
+}
+
+.project p{
+    margin:2%;
+}
+
+.project img {
+    width: 189px;
+    height: auto;
+    margin: 5px;
 }
 
 footer{
