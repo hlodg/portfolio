@@ -155,7 +155,7 @@ footer{
     .project .project_content {
         display:flex;
         flex-direction: column;
-         align-items: center;
+        align-items: center;
      }
 
   }
@@ -163,19 +163,6 @@ footer{
   /* Small smartphones stacks picture and text, changes image to smaller*/
   @media screen and (max-width: 578px) {
     
-        #content {
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-
-            }
-
-        .project .project_content {
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-         }
-
          #aboutme img{
             width:189px;
             height: auto;
