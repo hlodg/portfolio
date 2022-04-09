@@ -22,15 +22,25 @@ h1{
 
 /* style's header */
 .title{
-    text-align:center;
+    display:flex;
     background-color:#202020;
     color: #FFFFFF;
+}
+
+.title>h1{
+    justify-content: left;
+}
+
+.title>nav{
+    justify-content: right;
+    margin-top:auto;
+    margin-left:auto;
 }
 
 /* styles navigation bar without hover */
 .title a{
     text-decoration: none;
-    Text-align: right;
+    text-align: right;
     color: #ffffff;
     font-size: 139%;
     border-radius: 5px;
@@ -44,42 +54,56 @@ h1{
     cursor:grab;
 }
 
+
+
 /* Overall main content */
 main {
     background-color: #FFFFFF ;
     margin: 0% 4%;
 }
 
-/* styles about me section */
-#aboutme{
-    background-color: lightgrey;
+section {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
-/* styles the header in about me */
-#aboutme h2{
-    text-align: center;
-    padding: 10px 0px 0px 0px ;
+.left-content {
+    text-align: right;
+    border-right: #404040 3px solid;
+    padding-right: 15px;
+    width: 20%;
 }
 
-/* styles resume section */
-#resume {
-    text-align: center;
-    align-items: center;
+.right-content {
+    padding-left: 15px;
+    width: 80%;
 }
 
-/* allows the picture and text in about me to be side by side */
-#content{
-    display:flex;
+.left-content h2 {
+    color: #404040;
 }
 
-#aboutme img{
-    width:310px;
-    height: auto;
-    margin:20px;
+#aboutme .content {
+    display: flex;
+    flex-direction: row;
 }
 
 #aboutme p{
     margin:20px
+}
+
+#aboutme img{
+    width:200px;
+    height: auto;
+    margin:20px;
+}
+
+#resume .content {
+    align-self: center;
+    text-align: center;
+    font-size: x-large;
 }
 
 /* creates the bars in the portfolio that are with picture on left */
@@ -127,50 +151,3 @@ main {
     width: 400px;
     height: auto;
 }
-
-/* styles contact form at the bottom */
-footer{
-    align-items: center;
-    text-align:center;
-    margin:5%;
-}
-
-#contactme{
-    border: dashed 2px;
-    width: 200px;
-    margin: 5px auto;
-    padding: 10px;
-}
-
-
- /* Small Tablet, large smartphone, changes the layout to be picture and text stacked */
-  @media screen and (max-width: 768px) {
-    
-    #content {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        }
-
-    .project .project_content {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-     }
-
-  }
-  
-  /* Small smartphones stacks picture and text, changes image to smaller*/
-  @media screen and (max-width: 578px) {
-    
-         #aboutme img{
-            width:189px;
-            height: auto;
-        }
-
-        .first img {
-            width: 189px;
-            height: auto;
-        }
-
-    }
